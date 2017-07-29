@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706C1CF91F2D0BE20027B574 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C1CF81F2D0BE20027B574 /* CreateAccountViewController.swift */; };
+		706C1CFB1F2D0BF00027B574 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706C1CFA1F2D0BF00027B574 /* CreateAccount.storyboard */; };
+		709512D21E5577FD005C2234 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709512D11E5577FD005C2234 /* SigninViewController.swift */; };
+		70985BF91E71058B0009178E /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70985BF71E71058B0009178E /* Signin.storyboard */; };
+		70B19F5A1E79F5A100D0214F /* RadialGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B19F591E79F5A100D0214F /* RadialGradientLayer.swift */; };
+		70B19F5C1E7A144E00D0214F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B19F5B1E7A144E00D0214F /* UIViewController+Extensions.swift */; };
+		9A7B5F361E8C302B009D2AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7B5F351E8C302B009D2AC2 /* Assets.xcassets */; };
+		9A7B5F381E8C4DE4009D2AC2 /* UIAlertController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B5F371E8C4DE3009D2AC2 /* UIAlertController+extensions.swift */; };
+		9A7B5F3A1E8C6001009D2AC2 /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7B5F391E8C6001009D2AC2 /* UIView+extensions.swift */; };
 		9AC37B2D1E4D0F3B006BE4DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC37B2C1E4D0F3B006BE4DF /* AppDelegate.swift */; };
-		9AC37B2F1E4D0F3B006BE4DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC37B2E1E4D0F3B006BE4DF /* ViewController.swift */; };
+		9AC37B2F1E4D0F3B006BE4DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC37B2E1E4D0F3B006BE4DF /* MainViewController.swift */; };
 		9AC37B321E4D0F3B006BE4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC37B301E4D0F3B006BE4DF /* Main.storyboard */; };
-		9AC37B341E4D0F3B006BE4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC37B331E4D0F3B006BE4DF /* Assets.xcassets */; };
 		9AC37B371E4D0F3B006BE4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC37B351E4D0F3B006BE4DF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		706C1CF81F2D0BE20027B574 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		706C1CFA1F2D0BF00027B574 /* CreateAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
+		709512D11E5577FD005C2234 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		70985BF81E71058B0009178E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Signin.storyboard; sourceTree = "<group>"; };
+		70B19F591E79F5A100D0214F /* RadialGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientLayer.swift; sourceTree = "<group>"; };
+		70B19F5B1E7A144E00D0214F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		9A7B5F351E8C302B009D2AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7B5F371E8C4DE3009D2AC2 /* UIAlertController+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extensions.swift"; sourceTree = "<group>"; };
+		9A7B5F391E8C6001009D2AC2 /* UIView+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 		9AC37B291E4D0F3B006BE4DF /* Launch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC37B2C1E4D0F3B006BE4DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AC37B2E1E4D0F3B006BE4DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AC37B2E1E4D0F3B006BE4DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9AC37B311E4D0F3B006BE4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AC37B331E4D0F3B006BE4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC37B361E4D0F3B006BE4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AC37B381E4D0F3B006BE4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,11 +70,19 @@
 		9AC37B2B1E4D0F3B006BE4DF /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				9A7B5F351E8C302B009D2AC2 /* Assets.xcassets */,
 				9AC37B2C1E4D0F3B006BE4DF /* AppDelegate.swift */,
-				9AC37B2E1E4D0F3B006BE4DF /* ViewController.swift */,
+				9AC37B2E1E4D0F3B006BE4DF /* MainViewController.swift */,
 				9AC37B301E4D0F3B006BE4DF /* Main.storyboard */,
-				9AC37B331E4D0F3B006BE4DF /* Assets.xcassets */,
+				706C1CF81F2D0BE20027B574 /* CreateAccountViewController.swift */,
+				706C1CFA1F2D0BF00027B574 /* CreateAccount.storyboard */,
+				709512D11E5577FD005C2234 /* SigninViewController.swift */,
+				70985BF71E71058B0009178E /* Signin.storyboard */,
 				9AC37B351E4D0F3B006BE4DF /* LaunchScreen.storyboard */,
+				70B19F591E79F5A100D0214F /* RadialGradientLayer.swift */,
+				9A7B5F371E8C4DE3009D2AC2 /* UIAlertController+extensions.swift */,
+				9A7B5F391E8C6001009D2AC2 /* UIView+extensions.swift */,
+				70B19F5B1E7A144E00D0214F /* UIViewController+Extensions.swift */,
 				9AC37B381E4D0F3B006BE4DF /* Info.plist */,
 			);
 			path = Launch;
@@ -96,6 +120,7 @@
 				TargetAttributes = {
 					9AC37B281E4D0F3B006BE4DF = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JTPDJ9JCYN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70985BF91E71058B0009178E /* Signin.storyboard in Resources */,
 				9AC37B371E4D0F3B006BE4DF /* LaunchScreen.storyboard in Resources */,
-				9AC37B341E4D0F3B006BE4DF /* Assets.xcassets in Resources */,
+				706C1CFB1F2D0BF00027B574 /* CreateAccount.storyboard in Resources */,
+				9A7B5F361E8C302B009D2AC2 /* Assets.xcassets in Resources */,
 				9AC37B321E4D0F3B006BE4DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC37B2F1E4D0F3B006BE4DF /* ViewController.swift in Sources */,
+				9A7B5F3A1E8C6001009D2AC2 /* UIView+extensions.swift in Sources */,
+				70B19F5A1E79F5A100D0214F /* RadialGradientLayer.swift in Sources */,
+				9AC37B2F1E4D0F3B006BE4DF /* MainViewController.swift in Sources */,
+				70B19F5C1E7A144E00D0214F /* UIViewController+Extensions.swift in Sources */,
+				706C1CF91F2D0BE20027B574 /* CreateAccountViewController.swift in Sources */,
+				9A7B5F381E8C4DE4009D2AC2 /* UIAlertController+extensions.swift in Sources */,
+				709512D21E5577FD005C2234 /* SigninViewController.swift in Sources */,
 				9AC37B2D1E4D0F3B006BE4DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +177,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		70985BF71E71058B0009178E /* Signin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70985BF81E71058B0009178E /* Base */,
+			);
+			name = Signin.storyboard;
+			sourceTree = "<group>";
+		};
 		9AC37B301E4D0F3B006BE4DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JTPDJ9JCYN;
 				INFOPLIST_FILE = Launch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenjef.Launch;
@@ -272,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JTPDJ9JCYN;
 				INFOPLIST_FILE = Launch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kenjef.Launch;
@@ -299,6 +342,7 @@
 				9AC37B3D1E4D0F3B006BE4DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
