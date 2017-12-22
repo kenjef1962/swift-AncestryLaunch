@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YE4-fA-T9z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YE4-fA-T9z">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -28,7 +28,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="692"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radial-glow" translatesAutoresizingMaskIntoConstraints="NO" id="NRL-fG-UnG">
-                                <rect key="frame" x="0.0" y="49" width="414" height="414"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="414"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NRL-fG-UnG" secondAttribute="height" multiplier="1:1" id="FLi-Ds-6c1"/>
                                 </constraints>
@@ -41,10 +41,10 @@
                                 </constraints>
                             </imageView>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RMN-TA-TyL">
-                                <rect key="frame" x="82" y="250.33333333333331" width="250" height="51.333333333333314"/>
+                                <rect key="frame" x="82" y="250.33333333333334" width="250" height="51.333333333333343"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_on_dark" translatesAutoresizingMaskIntoConstraints="NO" id="pR6-q1-3nl">
-                                        <rect key="frame" x="0.0" y="0.33333333333331439" width="250" height="51.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="51.333333333333336"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -58,13 +58,13 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ADq-cE-dUt">
-                                <rect key="frame" x="32" y="139" width="350" height="441"/>
+                                <rect key="frame" x="0.0" y="139" width="0.0" height="441"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dm6-wt-Zj0">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="331"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="331"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The World's Largest Genealogical Database" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVr-eg-zau">
-                                                <rect key="frame" x="35" y="0.0" width="280.33333333333331" height="72"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="72"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="72" id="IVM-RT-8lZ"/>
                                                 </constraints>
@@ -73,13 +73,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalCompressionResistancePriority="500" image="ic_globe" translatesAutoresizingMaskIntoConstraints="NO" id="f3U-o0-hmV">
-                                                <rect key="frame" x="0.0" y="82" width="350" height="175"/>
+                                                <rect key="frame" x="32" y="82" width="350" height="175"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="f3U-o0-hmV" secondAttribute="height" multiplier="2:1" id="xwA-Nq-dB5"/>
+                                                    <constraint firstAttribute="height" constant="175" id="zUw-yt-4dC"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up for an Ancestry account and gain instant access to almost 20 billion records from around the world." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwa-gy-hsU">
-                                                <rect key="frame" x="1.6666666666666572" y="267" width="347" height="64"/>
+                                                <rect key="frame" x="0.0" y="267" width="0.0" height="64"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="64" id="l6o-Yc-Wul"/>
                                                 </constraints>
@@ -95,7 +96,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jYs-1E-tWG">
-                                        <rect key="frame" x="75" y="356" width="200" height="85"/>
+                                        <rect key="frame" x="107" y="356" width="200" height="85"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKX-8b-3m8">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
@@ -139,15 +140,14 @@
                             <constraint firstItem="m21-Fd-Prh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T9V-P2-1Of"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="W7q-wv-lPq" secondAttribute="bottom" id="UgX-CZ-pgF"/>
                             <constraint firstItem="RMN-TA-TyL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.75" id="aSL-kz-a2J"/>
-                            <constraint firstItem="NRL-fG-UnG" firstAttribute="centerY" secondItem="RMN-TA-TyL" secondAttribute="centerY" constant="-20" id="aot-J8-olW"/>
                             <constraint firstItem="W7q-wv-lPq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jEN-sn-WQg"/>
                             <constraint firstItem="m21-Fd-Prh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ly6-lf-dls"/>
                             <constraint firstItem="ADq-cE-dUt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r1R-zT-yIu"/>
                             <constraint firstItem="RMN-TA-TyL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sxb-7x-Pe0"/>
                             <constraint firstAttribute="trailing" secondItem="W7q-wv-lPq" secondAttribute="trailing" id="tXH-Hm-oJq"/>
                             <constraint firstItem="ADq-cE-dUt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" priority="750" constant="20" id="viU-Dx-FXq"/>
-                            <constraint firstItem="NRL-fG-UnG" firstAttribute="centerX" secondItem="RMN-TA-TyL" secondAttribute="centerX" id="w7o-qw-eY2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ADq-cE-dUt" secondAttribute="trailing" priority="750" constant="20" id="wfs-uK-fdi"/>
+                            <constraint firstItem="NRL-fG-UnG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="yOA-Sq-DLT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ADq-cE-dUt" secondAttribute="bottom" priority="750" constant="25" id="ysl-yA-t6O"/>
                         </constraints>
                     </view>
@@ -178,7 +178,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YE4-fA-T9z" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zwY-op-zXH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

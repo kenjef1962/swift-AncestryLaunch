@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="j6b-ot-VLl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="j6b-ot-VLl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -28,6 +28,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_dark" translatesAutoresizingMaskIntoConstraints="NO" id="lUi-tE-Xa4" userLabel="bf_dark">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radial-glow" translatesAutoresizingMaskIntoConstraints="NO" id="Hnr-L1-if5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Hnr-L1-if5" secondAttribute="height" multiplier="1:1" id="u7W-gi-qMX"/>
+                                </constraints>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_on_dark2" translatesAutoresizingMaskIntoConstraints="NO" id="DvI-L8-U5g">
                                 <rect key="frame" x="169" y="84" width="38" height="30"/>
                                 <constraints>
@@ -164,13 +173,20 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="og5-75-dww" secondAttribute="trailing" priority="999" constant="20" id="0Nh-ou-0uv"/>
                             <constraint firstItem="og5-75-dww" firstAttribute="centerX" secondItem="chp-xB-Xr9" secondAttribute="centerX" id="5Xb-zb-LdL"/>
+                            <constraint firstItem="lUi-tE-Xa4" firstAttribute="top" secondItem="chp-xB-Xr9" secondAttribute="top" id="6k1-Xl-QzF"/>
+                            <constraint firstAttribute="trailing" secondItem="Hnr-L1-if5" secondAttribute="trailing" id="7OU-9w-Bwx"/>
+                            <constraint firstAttribute="trailing" secondItem="lUi-tE-Xa4" secondAttribute="trailing" id="8uR-TR-vUf"/>
+                            <constraint firstItem="Hnr-L1-if5" firstAttribute="top" secondItem="3VM-IC-PbP" secondAttribute="bottom" id="CDG-Yr-JiP"/>
                             <constraint firstItem="DvI-L8-U5g" firstAttribute="centerY" secondItem="pPo-oh-6gV" secondAttribute="centerY" id="FH0-oS-teq"/>
                             <constraint firstItem="og5-75-dww" firstAttribute="top" secondItem="DvI-L8-U5g" secondAttribute="bottom" constant="40" id="MFN-6I-rCM"/>
                             <constraint firstItem="pPo-oh-6gV" firstAttribute="width" secondItem="pPo-oh-6gV" secondAttribute="height" multiplier="345:71" id="OMH-t0-P7L"/>
+                            <constraint firstItem="Hnr-L1-if5" firstAttribute="leading" secondItem="chp-xB-Xr9" secondAttribute="leading" id="ZP8-nk-SE0"/>
                             <constraint firstItem="DvI-L8-U5g" firstAttribute="centerX" secondItem="chp-xB-Xr9" secondAttribute="centerX" id="eco-4g-GZo"/>
                             <constraint firstItem="DvI-L8-U5g" firstAttribute="height" secondItem="pPo-oh-6gV" secondAttribute="height" id="egg-j2-KLv"/>
                             <constraint firstItem="pPo-oh-6gV" firstAttribute="top" secondItem="3VM-IC-PbP" secondAttribute="bottom" constant="20" id="iJg-oU-Vs8"/>
+                            <constraint firstItem="lUi-tE-Xa4" firstAttribute="leading" secondItem="chp-xB-Xr9" secondAttribute="leading" id="mmn-K9-cdj"/>
                             <constraint firstItem="pPo-oh-6gV" firstAttribute="centerX" secondItem="chp-xB-Xr9" secondAttribute="centerX" id="sOk-a0-hRW"/>
+                            <constraint firstAttribute="bottom" secondItem="lUi-tE-Xa4" secondAttribute="bottom" id="vYp-EG-pnv"/>
                             <constraint firstItem="og5-75-dww" firstAttribute="leading" secondItem="chp-xB-Xr9" secondAttribute="leadingMargin" priority="999" constant="20" id="zEx-No-qPq"/>
                         </constraints>
                     </view>
@@ -194,8 +210,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bg_dark" width="736" height="736"/>
         <image name="logo_on_dark" width="345" height="71"/>
         <image name="logo_on_dark2" width="90" height="71"/>
         <image name="passwordShow" width="23" height="14"/>
+        <image name="radial-glow" width="1525" height="1561"/>
     </resources>
 </document>
